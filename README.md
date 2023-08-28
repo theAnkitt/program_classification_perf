@@ -30,7 +30,7 @@ sudo perf stat -e L1-dcache-load-misses,L1-icache-load-misses ./filename
 
 Result will looks something like this : <br/>
 
-![Output Screenshort](https://github.com/theAnkitt/program_classification_perf/tree/main/output.jpeg?raw=true) <br/>
+![Output Screenshort]( https://github.com/theAnkitt/program_classification_perf/blob/main/output.jpeg?raw=true) <br/>
 
 
 
