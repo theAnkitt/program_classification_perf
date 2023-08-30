@@ -9,7 +9,7 @@ The perf command is used as a primary interface to the Linux kernel performance 
 help command will give you more insight into perf tools.<br/>
 
 Steps to get the values of perf events :- <br/>
-**step 1** : create file filename.sh <br/>
+**step 1** : create a file filename.sh <br/>
 **step 2** : paste the code given below and edit the file name each time.(filename is c program filename)
 
 
@@ -24,7 +24,7 @@ sudo perf stat -e LLC-store-misses,LLC-load-misses,L1-dcache-stores,L1-dcache-lo
 
 sudo perf stat -e L1-dcache-load-misses,L1-icache-load-misses ./filename
 ```
-**step 3** : save the .sh file to the same location where c program is saved. Gvie executable permission to sh file. <br/>
+**step 3** : save the .sh file to the same location where c program is saved. Give executable permission to .sh file. <br/>
 **step 4** : configure the c program file and get the input file for the programs.<br/>
 **step 5** : run the .sh file.<br/>
 
@@ -35,7 +35,7 @@ Result will looks something like this : <br/>
 
 
 <br/>
-create file filename.sh and write the following code inside and save it and run inside the folder with the programs. <br/>
+create file filename.sh and write the following code inside it and save it accordingly and run inside the folder with the programs. <br/>
 
 
 
